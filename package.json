@@ -1,0 +1,21 @@
+{
+  "name": "env-keys-config",
+  "version": "0.0.1",
+  "description": "Create the keys for APP_KEY and KEY_SECRET in the .env file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-keys": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [
+    "env",
+    "keys"
+  ],
+  "author": "NamelessGraphic",
+  "license": "MIT",
+  "dependencies": {
+    "js-base64": "^3.7.7"
+  }
+}
